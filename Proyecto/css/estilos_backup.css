@@ -1,0 +1,324 @@
+/*
+esto es un comentartio multilineo en CSS
+CSS: Hojas de estilos en cascada
+
+su sintaxix
+
+selectores
+Eqtuiqyeta: el selector menos especifico
+class: 
+
+id: el selector con mas especificidad, porque puedo poner un mismo id a un unico elemento, no puedo repetir
+*/
+
+font-size
+
+p{
+background-color: darkred;
+}
+
+.colorFontDarkred{
+background-color: darkred;
+    
+}
+p{
+
+font-size: 24px;
+
+}
+
+/* Estilo de la barra de navegación (sin cambio de fondo) */
+.navbar {
+    background-color: transparent; /* Fondo transparente o sin cambios */
+    border: 2px solid rgb(245, 7, 7); /* Borde rojo brillante */
+}
+
+/* Estilo de los elementos de la lista de navegación */
+.nav-item {
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+
+/* Estilo de los enlaces de navegación por defecto */
+.nav-link {
+    text-decoration: none;
+    color: rgb(245, 7, 7); /* Color de texto rojo brillante */
+    transition: transform 0.3s; /* Transición de transformación suave */
+}
+
+/* Estilo de los enlaces de navegación al pasar el mouse */
+.nav-link:hover {
+    transform: scale(1.2); /* Expandir el texto al 120% del tamaño original al pasar el mouse */
+    color: rgb(245, 7, 7); /* Mantener el color del texto en rojo al pasar el mouse */
+}
+
+
+
+
+  .imagenFondo{
+    width: 650px;
+    height: 600px;
+    background-image: url(../Assets/img/Thrawn\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+  }
+
+  /* Estilos para el encabezado (header) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222; /* Color de fondo del encabezado */
+}
+
+/* Estilos para el logo */
+.logo {
+    flex: 1; /* Hace que el logo ocupe el espacio disponible */
+}
+
+/* Estilos para el menú */
+.menu {
+    flex: 1; /* Hace que el menú ocupe el espacio disponible */
+    text-align: right; /* Alinea el menú a la derecha */
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.listaNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listaNav li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+.linkNav {
+    text-decoration: none;
+    color: white; /* Color de texto para los enlaces del menú */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajusta el espaciado según tus preferencias */
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la lista de navegación */
+.listaNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Estilos para los elementos de la lista de navegación */
+.listaNav li {
+    margin-right: 20px; /* Ajusta el espaciado entre los elementos según tus preferencias */
+}
+
+/* Estilos para los enlaces de navegación */
+.linkNav {
+    text-decoration: none;
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+/* Estilos para el logo */
+header a img {
+    width: 100px; /* Ajusta el tamaño del logo según tus preferencias */
+    height: auto;
+}/* Autoajuste de la altura para mantener la proporción */
+
+.logo-grande {
+    width: 750px; /* Ajusta el tamaño según tus necesidades */
+    height: 60px; /* Esto mantiene la proporción original del logotipo */
+}
+
+.logo-grande2 {
+    width: 300px; /* Ajusta el tamaño según tus necesidades */
+    height: 20px; /* Esto mantiene la proporción original del logotipo */
+}
+
+
+
+
+/* estilos.css */
+.background-section {
+    background-image: url(../Assets/img/desktop-wallpaper-star-wars-empire-logo-star-wars-rebel-logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(244, 248, 247); /* Cambia el color del texto según tu preferencia */
+    padding: 130px; }
+
+    .img-same-size {
+        width: 297px; /* El ancho que desees */
+        height: 297px; /* La altura que desees */
+    }
+
+    .star-wars-font {
+        font-family: 'C:\Coderhouse - Full Stack\Clase 1\Proyecto\Assets\fonts\death_star.zip', sans-serif;
+        /* Asegúrate de que la ruta sea correcta según la ubicación de tu archivo de fuente en la carpeta "assets" */
+        /* Otros estilos según tus preferencias */
+    }
+
+/* Agregar el siguiente CSS para el efecto de resaltado */
+.img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.social-icon {
+    width: 30px; /* Define el ancho deseado para las imágenes */
+    height: 30px; /* Define la altura deseada para las imágenes */
+    margin-right: 10px; /* Añade un espacio entre las imágenes si lo deseas */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px;
+}
+
+
+.bg-intense-red {
+        background-color: #FF0000; /* Cambia el valor a tu preferencia de rojo intenso */
+    }
+
+    
+    
+
+    .mi-imagen {
+        
+        width: 2000px; /* Ancho al 100% del contenedor */
+        max-width: 2000px; /* Ancho máximo de 800px */
+        height: 200px; /* Altura ajustada automáticamente para mantener la proporción */
+        padding-right: 600px;
+    }
+
+    .my-section {
+        background: rgba(0, 0, 0, 0.9); /* Fondo semi-transparente */
+        background-size: cover; /* Para que la imagen cubra toda la sección */
+        background-position: center; /* Para centrar la imagen */
+        
+    }
+
+    .dark-background {
+        background-color: #4e4e4e; /* Color gris oscuro (puedes ajustar el valor según tus preferencias) */
+        color: white; /* Color del texto en la sección (puede ser blanco u otro color que contraste) */
+        padding: 40px; /* Ajusta el espaciado interior según tus preferencias */
+    }
+
+    .btn-estetico {
+        background-color: #FF0000;
+        border: 2px solid #000000;
+        color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        padding: 10px 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .btn-estetico:hover {
+        background-color: #FF3333 !important;
+        color: #FFFFFF !important;
+    }
+
+    .subtitles-size {
+        width: 1000px; /* Define el ancho deseado, por ejemplo, 200px */
+        height: 70px; /* Define el alto deseado, por ejemplo, 150px */
+    }
+
+    .subtitles-size2 {
+        width: 400px; /* Define el ancho deseado, por ejemplo, 200px */
+        height: 70px; /* Define el alto deseado, por ejemplo, 150px */
+    }
+    .center-image {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 200px; /* Ajusta la altura deseada */
+    }
+
+    .mi-imagen3 {
+        
+        width: 660px; /* Ancho al 100% del contenedor */
+         /* Ancho máximo de 800px */
+        height: 390px; /* Altura ajustada automáticamente para mantener la proporción */
+        
+
+
+        /* Cambia el fondo a rojo y los bordes a blanco brillante */
+.navbar {
+    background-color: red;
+    border: 2px solid white;
+}
+
+/* Estilo del texto y delineado */
+.navbar-nav .nav-link {
+    color: black; /* Color de texto negro */
+    text-shadow: 1px 1px 1px white; /* Delineado blanco */
+}
+        
+    }
+    .parrafop{font-size: 40px;}
+
+    @media(max-width:576px){
+        .parrafop{font-size: 20px;}
+
+
+    }
+
+    .bg-red {
+        background-color: rgb(247, 245, 245); /* Cambiar el fondo a rojo */
+    }
+    
+    .border-red {
+        border: 1px solid rgb(245, 7, 7); /* Establecer el borde blanco brillante */
+    }
+    
+    .text-black {
+        color: rgb(255, 6, 6); /* Establecer el color del texto en negro */
+    }
+
+    .carousel-container {
+        margin-top: 200px; /* Margen superior */
+        margin-bottom: 200px; /* Margen inferior */
+    }
+    
+    #imageCarousel {
+        margin-top: 0; /* Elimina el margen superior predeterminado */
+        margin-right: 0; /* Ajusta el margen derecho */
+        margin-left: auto; /* Mueve el carrusel hacia la derecha de la columna */
+        width: 80%; /* Ancho del carrusel (ajusta según tus necesidades) */
+    }
+    
+    .carousel-inner {
+        text-align: center; /* Centra las imágenes horizontalmente */
+    }
+    
+    .carousel-item img {
+        max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+        margin: 0 auto; /* Centra verticalmente las imágenes */
+    }

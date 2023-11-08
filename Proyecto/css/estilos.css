@@ -193,7 +193,7 @@ header a img {
 
 /* Estilos para el pie de página */
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #222; /* Cambia el color de fondo según tus preferencias */
@@ -302,4 +302,23 @@ header a img {
         color: rgb(255, 6, 6); /* Establecer el color del texto en negro */
     }
 
+    .carousel-container {
+        margin-top: 200px; /* Margen superior */
+        margin-bottom: 200px; /* Margen inferior */
+    }
     
+    #imageCarousel {
+        margin-top: 0; /* Elimina el margen superior predeterminado */
+        margin-right: 0; /* Ajusta el margen derecho */
+        margin-left: auto; /* Mueve el carrusel hacia la derecha de la columna */
+        width: 80%; /* Ancho del carrusel (ajusta según tus necesidades) */
+    }
+    
+    .carousel-inner {
+        text-align: center; /* Centra las imágenes horizontalmente */
+    }
+    
+    .carousel-item img {
+        max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+        margin: 0 auto; /* Centra verticalmente las imágenes */
+    }
